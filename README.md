@@ -27,7 +27,7 @@ You can upload screenshots for each exercise into the folder:
 Screenshots/
 ```
 
-### 📌 **Exercise 1 – Basic Layout**
+### 📌 **Exercise 1 – Hello World**
 
 #### Demo UI:
 
@@ -37,7 +37,7 @@ Screenshots/
 
 ---
 
-### 📌 **Exercise 2 – Contact List (RecyclerView)**
+### 📌 **Two Number**
 
 #### Demo UI:
 
@@ -47,7 +47,7 @@ Screenshots/
 
 ---
 
-### 📌 **Exercise 3 – SQLite / Room Database**
+### 📌 **Hello World – ListView**
 
 #### Demo UI:
 
@@ -57,16 +57,35 @@ Screenshots/
 
 ---
 
+### 📌 **Midterm Exam**
+
+#### Demo UI:
+
+<p align="center">
+  <img src="screenshots/midtermExam.png" width="300" />
+</p>
+
+---
+
 ## 📁 **Repository Structure**
 
 ```
 mobile-programming/
 │
-├── BaiTap1_Layout/
-├── BaiTap2_RecyclerView/
-├── BaiTap3_SQLite/
-├── Screenshots/        ← contains UI screenshots
-└── README.md
+├── MidtermExam/                     → Bài thi giữa kỳ (Android Project)
+│
+├── Practice1_HelloWord/             → Bài tập 1: Hiển thị “Hello World”
+│
+├── Practice2_TwoNumbers/            → Bài tập 2: Nhập và xử lý hai số
+│
+├── Practice3_HelloWord_ListView/    → Bài tập 3: HelloWorld nâng cao – ListView
+│
+├── Practice4_Calculator/            → Bài tập 4: Máy tính đơn giản (Calculator)
+│
+├── Screenshots/                     → Thư mục chứa ảnh minh họa giao diện
+│
+└── .gitignore                       → File cấu hình bỏ qua build/cache
+
 ```
 
 ---
