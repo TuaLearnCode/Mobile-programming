@@ -27,7 +27,7 @@ You can upload screenshots for each exercise into the folder:
 Screenshots/
 ```
 
-### 📌 **Exercise 1 – Hello World**
+### 📌 **Hello World**
 
 #### Demo UI:
 
