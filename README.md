@@ -1,73 +1,63 @@
+# 📱 **Mobile Programming Exercises (Android)**
 
-
-# 📱 **Tổng Hợp Bài Tập Lập Trình Di Động (Android)**
-
-Repository này lưu trữ toàn bộ các **bài tập – mini project – lab thực hành** của môn *Lập Trình Di Động* (Android).
-Mỗi bài tập là một dự án Android độc lập và có thể mở trực tiếp bằng Android Studio.
+This repository contains all **exercises, mini-projects, and lab assignments** for the *Mobile Programming* course using **Android Studio**.
+Each exercise is an independent Android project that can be opened directly in Android Studio.
 
 ---
 
-## 📑 **Mục Lục**
+## 📑 **Table of Contents**
 
-* [Giới thiệu](#giới-thiệu)
-* [Ảnh minh họa ứng dụng](#ảnh-minh-họa-ứng-dụng)
-* [Cấu trúc Repository](#cấu-trúc-repository)
-* [Công nghệ sử dụng](#công-nghệ-sử-dụng)
-* [Cách mở từng project](#cách-mở-từng-project)
-* [Cấu trúc một project Android](#cấu-trúc-một-project-android)
-* [File .gitignore](#file-gitignore)
-* [Mục tiêu môn học](#mục-tiêu-môn-học)
-* [Liên hệ](#liên-hệ)
+* [Introduction](#introduction)
+* [Application Screenshots](#application-screenshots)
+* [Repository Structure](#repository-structure)
+* [Technologies Used](#technologies-used)
+* [How to Open a Project](#how-to-open-a-project)
+* [Android Project Structure](#android-project-structure)
+* [.gitignore File](#gitignore-file)
+* [Course Objectives](#course-objectives)
+* [Contact](#contact)
 
 ---
 
-## 🖼️ **Ảnh minh họa ứng dụng**
+## 🖼️ **Application Screenshots**
 
-Bạn có thể upload ảnh chụp màn hình (screenshots) trong từng bài tập vào thư mục:
+You can upload screenshots for each exercise into the folder:
 
 ```
-/screenshots/
+Screenshots/
 ```
 
-Sau đó chèn vào README theo mẫu dưới đây 👇
+### 📌 **Exercise 1 – Basic Layout**
 
----
-
-### 📌 **Bài tập 1 – Layout cơ bản**
-
-#### Giao diện demo:
+#### Demo UI:
 
 <p align="center">
-  <img src="screenshots/baitap1.png" width="300" />
+  <img src="Screenshots/practice1.png" width="300" />
 </p>
 
 ---
 
-### 📌 **Bài tập 2 – Danh sách liên hệ (RecyclerView)**
+### 📌 **Exercise 2 – Contact List (RecyclerView)**
 
-#### Giao diện demo:
+#### Demo UI:
 
 <p align="center">
-  <img src="screenshots/baitap2.png" width="300" />
+  <img src="Screenshots/practice2.png" width="300" />
 </p>
 
 ---
 
-### 📌 **Bài tập 3 – SQLite / Room**
+### 📌 **Exercise 3 – SQLite / Room Database**
 
-#### Giao diện demo:
+#### Demo UI:
 
 <p align="center">
-  <img src="screenshots/baitap3.png" width="300" />
+  <img src="screenshots/practice3.png" width="300" />
 </p>
 
 ---
 
-*(Bạn chỉ cần upload ảnh vào `screenshots/` và đổi đúng tên ảnh.)*
-
----
-
-## 📁 **Cấu trúc Repository**
+## 📁 **Repository Structure**
 
 ```
 mobile-programming/
@@ -75,46 +65,46 @@ mobile-programming/
 ├── BaiTap1_Layout/
 ├── BaiTap2_RecyclerView/
 ├── BaiTap3_SQLite/
-├── screenshots/        ← chứa ảnh minh họa
+├── Screenshots/        ← contains UI screenshots
 └── README.md
 ```
 
 ---
 
-## 🛠 **Công nghệ sử dụng**
+## 🛠 **Technologies Used**
 
-* Android Studio (Iguana / Ladybug / phiên bản mới hơn)
-* Java hoặc Kotlin
+* Android Studio
+* Java
 * XML Layout
 * RecyclerView + Adapter
 * Material Components
-* SQLite / Room (tùy bài)
+* SQLite / Room (depending on the exercise)
 * ViewBinding / DataBinding
 * Gradle Scripts (.kts)
 
 ---
 
-## ▶️ **Cách mở từng project**
+## ▶️ **How to Open a Project**
 
-1. Clone repo:
+1. Clone the repository:
 
 ```sh
 git clone https://github.com/<username>/mobile-programming.git
 ```
 
-2. Mở Android Studio → **Open**
+2. Open **Android Studio** → **Open**
 
-3. Chọn thư mục bài tập cần mở:
+3. Select the folder of the project you want to run:
 
 ```
 mobile-programming/BaiTap2_RecyclerView/
 ```
 
-4. Chờ Gradle sync → **Run ▶**
+4. Wait for Gradle to sync → click **Run ▶**
 
 ---
 
-## 🧱 **Cấu trúc một project Android**
+## 🧱 **Android Project Structure**
 
 ```
 app/
@@ -130,7 +120,7 @@ local.properties
 
 ---
 
-## 🔒 **File .gitignore**
+## 🔒 **.gitignore File**
 
 ```gitignore
 .gradle/
@@ -147,30 +137,19 @@ captures/
 
 ---
 
-## 🎯 **Mục tiêu môn học**
+## 🎯 **Course Objectives**
 
-* Nắm vững vòng đời Activity
-* Hiểu Intent, Bundle, Fragment
-* Thiết kế giao diện bằng XML
-* Làm việc với RecyclerView
-* Lưu trữ dữ liệu bằng SQLite/Room
-* Tạo mini ứng dụng hoàn chỉnh
-* Quản lý dự án với Gradle
-
----
-
-## 📬 **Liên hệ**
-
-📧 *<your_email_here>*
-📌 Hoặc tạo **Issue** trực tiếp trên GitHub để hỏi đáp.
+* Understand the Activity lifecycle
+* Build UI layouts using XML
+* Work with RecyclerView and Adapters
+* Store data using SQLite/Room
+* Develop small Android applications
+* Manage project configuration with Gradle
 
 ---
 
-Nếu bạn muốn, mình có thể:
+## 📬 **Contact**
 
-✔ Tạo README riêng cho từng bài tập
-✔ Tự tạo mẫu screenshot frame đẹp
-✔ Tự sinh danh sách bài tập dựa trên folder repo của bạn
+📧 *[htthaoduyenit@gmail.com](mailto:htthaoduyenit@gmail.com)*
 
-Chỉ cần gửi:
-👉 **“Tạo README cho từng bài tập từ danh sách folder”**
+---
