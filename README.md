@@ -52,7 +52,7 @@ Screenshots/
 #### Demo UI:
 
 <p align="center">
-  <img src="screenshots/practice3.png" width="300" />
+  <img src="Screenshots/practice3.png" width="300" />
 </p>
 
 ---
@@ -62,7 +62,7 @@ Screenshots/
 #### Demo UI:
 
 <p align="center">
-  <img src="screenshots/midtermExam.png" width="300" />
+  <img src="Screenshots/midtermExam.png" width="300" />
 </p>
 
 ---
